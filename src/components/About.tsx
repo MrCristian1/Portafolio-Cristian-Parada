@@ -35,7 +35,7 @@ const About = () => {
             <div className="relative">
               <div className="w-full h-full max-w-md mx-auto">
                 <img
-                  src="public\WhatsApp Image 2025-05-25 at 9.23.16 AM.jpeg"
+                  src="/perfil.jpeg"
                   alt="Cristian Parada"
                   className="w-full h-full object-cover rounded-2xl shadow-lg"
                 />
