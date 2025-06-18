@@ -44,9 +44,9 @@ export const frontendSkills: Skill[] = [
   },
   {
     id: 7,
-    name: 'Angular',
-    svgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg',
-    description: 'Framework completo para aplicaciones web dinámicas.',
+    name: 'Vite',
+    svgUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1039px-Vitejs-logo.svg.png',
+    description: 'Herramienta moderna de build y desarrollo para proyectos web.',
   },
   {
     id: 8,
@@ -70,48 +70,24 @@ export const backendSkills: Skill[] = [
     svgUrl: 'https://www.svgrepo.com/show/354113/nextjs-icon.svg',
     description: 'Marco web de desarrollo front-end - back-end de React de código abierto.',
   },
-  {
-    id: 11,
-    name: 'APIs REST',
-    svgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg',
-    description: 'Desarrollo y consumo de servicios web.',
-  },
 ];
 
 // Bases de Datos
 export const databaseSkills: Skill[] = [
   {
-    id: 12,
-    name: 'MySQL',
-    svgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
-    description: 'Diseño, administración y optimización de BD relacionales.',
-  },
-  {
-    id: 13,
-    name: 'Oracle',
-    svgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg',
-    description: 'Sistema de gestión de base de datos empresarial.',
-  },
-  {
-    id: 14,
-    name: 'MongoDB',
-    svgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg',
-    description: 'Base de datos NoSQL orientada a documentos.',
-  },
-  {
-    id: 15,
+    id: 11,
     name: 'Supabase',
     svgUrl: 'https://img.icons8.com/color/512/supabase.png',
     description: 'Plataforma alojada en la nube basada en SQL.',
   },
   {
-    id: 16,
+    id: 12,
     name: 'DBeaver',
     svgUrl: 'https://dbeaver.io/wp-content/uploads/2015/09/beaver-head.png',
     description: 'Herramienta universal para administración de bases de datos.',
   },
   {
-    id: 17,
+    id: 13,
     name: 'FirebaseDatabase',
     svgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg',
     description: 'Alojada en la nube, los datos se almacenan en formato JSON.',
@@ -121,25 +97,25 @@ export const databaseSkills: Skill[] = [
 // Herramientas de Desarrollo
 export const developmentTools: Skill[] = [
   {
-    id: 18,
+    id: 14,
     name: 'Git & GitHub',
     svgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg',
     description: 'Control de versiones y colaboración en equipo.',
   },
   {
-    id: 19,
+    id: 15,
     name: 'Vercel',
     svgUrl: 'https://www.svgrepo.com/show/327408/logo-vercel.svg',
     description: 'Plataforma en la nube que permite a los desarrolladores desplegar.',
   },
   {
-    id: 20,
+    id: 16,
     name: 'Lovable',
     svgUrl: 'https://lovable.dev/img/logo/lovable-logo-icon.svg',
     description: 'Plataforma que permite crear e implementar aplicaciones desde el navegador.',
   },
     {
-    id: 21,
+    id: 17,
     name: 'Azure App Service',
     svgUrl: 'https://symbols.getvecta.com/stencil_27/10_app-service-web-app.a19106cd0f.png',
     description: 'Servicios en la nube para el despliegue de aplicaciones web.',
@@ -149,25 +125,19 @@ export const developmentTools: Skill[] = [
 // Habilidades Creativas y Multimedia
 export const creativeSkills: Skill[] = [
   {
-    id: 22,
+    id: 18,
     name: 'Adobe After Effects',
     svgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/aftereffects/aftereffects-original.svg',
     description: 'Efectos visuales, motion graphics y animaciones.',
   },
   {
-    id: 23,
-    name: 'Adobe Photoshop',
-    svgUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1051px-Adobe_Photoshop_CC_icon.svg.png',
-    description: 'Edición de imágenes y diseño gráfico.',
-  },
-  {
-    id: 24,
+    id: 19,
     name: 'Blender',
     svgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg',
     description: 'Modelado 3D, animación y renderizado.',
   },
   {
-    id: 25,
+    id: 20,
     name: 'CapCut',
     svgUrl: 'https://www.svgrepo.com/show/504203/capcut.svg',
     description: 'Edición de videos y contenido para redes sociales.',
@@ -177,13 +147,13 @@ export const creativeSkills: Skill[] = [
 // Herramientas de Productividad
 export const productivitySkills: Skill[] = [
   {
-    id: 26,
+    id: 21,
     name: 'Microsoft Office',
     svgUrl: 'https://cdn.worldvectorlogo.com/logos/office-2.svg',
     description: 'Suite completa de productividad empresarial.',
   },
   {
-    id: 27,
+    id: 22,
     name: 'Google Workspace',
     svgUrl: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg',
     description: 'Colaboración en la nube y documentos compartidos.',

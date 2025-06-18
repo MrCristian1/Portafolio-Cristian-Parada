@@ -12,6 +12,7 @@ export interface Project {
   image: string;
   tags: string[];
   link?: string;
+  githubLink?: string;
   date: string;
   duration: string;
   category: string;

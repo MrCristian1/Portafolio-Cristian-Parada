@@ -65,7 +65,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            Apasionado por la tecnología, enfocado en crear soluciones eficientes.
+            Apasionado por la tecnología, especialmente por el desarrollo web, enfocado en crear soluciones eficientes.
             Estudiante de Ingeniería de Sistemas en busca de oportunidades para aplicar
             mis conocimientos y seguir creciendo profesionalmente.
           </motion.p>
