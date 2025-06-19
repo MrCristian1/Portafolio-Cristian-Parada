@@ -48,7 +48,7 @@ const About = () => {
                   </div>
                   <div className="flex items-center gap-2 text-primary-600 font-semibold mb-1">
                     <Calendar size={18} />
-                    <span className="text-gray-800 text-sm">9vo Semestre</span>
+                    <span className="text-gray-800 text-sm">9no Semestre</span>
                   </div>
                   <div className="flex items-center gap-2 text-primary-600 font-semibold">
                     <MapPin size={18} />
@@ -92,7 +92,7 @@ const About = () => {
             
             <div className="flex flex-wrap gap-4 mb-8">
               <a
-                href="mailto:cristianoronaldo8k@gmail.com"
+                href="mailto:cristianparada531@gmail.com"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-primary-50 hover:bg-primary-100 text-primary-600 rounded-md transition-colors"
               >
                 <Mail size={18} />
