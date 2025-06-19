@@ -30,7 +30,7 @@ const FloatingButton = () => {
   return (
     <div className="fixed right-6 bottom-6 z-50 flex flex-col gap-4">
       <motion.a
-        href="public\Hoja de Vida.pdf"
+        href="/Hoja-de-Vida.pdf"
         download="CristianParada_CV.pdf"
         className="flex items-center justify-center w-12 h-12 bg-primary-500 hover:bg-primary-600 text-white rounded-full shadow-lg hover:shadow-xl transition-all"
         whileHover={{ scale: 1.1 }}

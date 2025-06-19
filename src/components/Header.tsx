@@ -67,7 +67,7 @@ const Header = () => {
           </ul>
 
           <motion.a
-            href="public\Hoja de Vida.pdf"
+            href="/Hoja-de-Vida.pdf"
             download="CristianParada_CV.pdf"
             className="inline-flex items-center gap-2 bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
             initial={{ opacity: 0, scale: 0.9 }}
