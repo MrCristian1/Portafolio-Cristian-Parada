@@ -60,6 +60,49 @@ export const projects: Project[] = [
   },
   {
     id: 5,
+    title: 'FinanceFlow',
+    description: 'FinanceFlow es una aplicación web elegante y moderna para la gestión de finanzas personales, desarrollada con React, TypeScript y Tailwind CSS. Permite registrar ingresos y gastos, analizarlos mediante gráficos interactivos (barras, líneas y circulares), y exportar reportes en PDF y Excel. Incluye un dashboard con métricas clave, soporte para múltiples monedas, categorización automática, estadísticas detalladas y configuración personalizable. Su diseño es responsive, accesible y visualmente atractivo, e incorpora animaciones suaves y microinteracciones. Además, ofrece persistencia local de datos, instalación sencilla y una arquitectura modular que facilita la personalización y escalabilidad.',
+    image: '/finanzas.png',
+    tags: ['React', 'TypeScript', 'Tailwind', 'Netlify'],
+    link: 'https://musical-truffle-a63eb1.netlify.app',
+    githubLink: 'https://github.com/MrCristian1/Finance-Flow',
+    date: 'Enero 2023',
+    duration: '2 meses',
+    category: 'Data Visualization',
+    featured: true,
+    gradient: 'from-violet-500 to-pink-600'
+  },
+
+  {
+    id: 6,
+    title: 'Reloj Mundial',
+    description: 'Reloj Mundial es una aplicación web moderna y minimalista que muestra la hora en tiempo real de más de 32 ciudades alrededor del mundo, con vistas interactivas en forma de cuadrícula y globo. Desarrollada con React, TypeScript y Tailwind CSS, ofrece funcionalidades como búsqueda inteligente, modo claro/oscuro, filtros por día o noche, animaciones suaves y diseño responsive. Además, permite personalización avanzada, integración opcional con una API real de zonas horarias, y está optimizada para rendimiento, accesibilidad y despliegue en plataformas como Netlify, Vercel y GitHub Pages.',
+    image: '/Reloj.png',
+    tags: ['React', 'TypeScript ', 'Tailwind ', 'Netlify ', 'API'],
+    link: 'https://unique-gelato-337da9.netlify.app',
+    githubLink: 'https://github.com/MrCristian1/Reloj-Mundial',
+    date: 'Julio 2023',
+    duration: '2 meses',
+    category: 'Networking',
+    featured: true,
+    gradient: 'from-green-500 to-teal-600'
+  },
+  {
+    id: 7,
+    title: 'Tic-Tac-Toe',
+    description: 'Tic Tac Toe Avanzado es un juego moderno y completo de tres en raya desarrollado con React, TypeScript y Tailwind CSS. Ofrece modo multijugador local, enfrentamiento contra una inteligencia artificial con tres niveles de dificultad (incluyendo Minimax), temporizador configurable, efectos de sonido inmersivos, estadísticas persistentes y una interfaz elegante con temas claro y oscuro. Incluye animaciones, efectos visuales, accesibilidad, y una arquitectura optimizada para rendimiento. Además, es personalizable y puede desplegarse fácilmente gracias a su estructura modular y uso de tecnologías modernas como Vite y Web Audio API.',
+    image: '/Tictac.png',
+    tags: ['React', 'TypeScript ', 'Tailwind ', 'Netlify ', 'Audio API '],
+    link: 'https://nimble-dieffenbachia-86f094.netlify.app',
+    githubLink: 'https://github.com/MrCristian1/Tic-Tac-Toe',
+    date: 'Abril 2023',
+    duration: '1.5 meses',
+    category: 'Cybersecurity',
+    featured: true,
+    gradient: 'from-red-500 to-orange-600'
+  },
+    {
+    id: 8,
     title: 'Mi Agenda Personal',
     description: 'Esta página web es una agenda personal tipo Trello, diseñada como una aplicación Kanban para organizar tareas de forma visual e intuitiva. Permite gestionar tareas con funciones como creación, edición, subtareas, fechas de vencimiento, filtros y búsqueda en tiempo real. Ofrece un diseño responsivo con modo claro/oscuro, animaciones suaves y almacenamiento local. Desarrollada completamente en el frontend con React 18, TypeScript y Tailwind CSS, incorpora herramientas modernas como React Router, react-query y custom hooks, sin necesidad de backend, ideal para uso personal o como muestra de desarrollo web avanzado.',
     image: '/agenda.png',
@@ -74,7 +117,7 @@ export const projects: Project[] = [
   },
 
   {
-    id: 6,
+    id: 9,
     title: 'Mi diario del clima',
     description: 'Mi Diario del Clima es una aplicación web que permite a los usuarios consultar el clima de cualquier ciudad del mundo y registrar cómo se sienten bajo esas condiciones, creando un diario personal con notas, estadísticas y gráficos. Desarrollada con Next.js 15, React, TypeScript y Tailwind CSS, integra datos reales de WeatherAPI y autenticación segura con Supabase, todo desplegado en Vercel. Su diseño moderno tipo glassmorphism, funcionalidades como historial, modo demo, y seguridad con RLS, ofrecen una experiencia atractiva, intuitiva y personalizada. <br> <br><em>Si surge cualquier error al intentar abrir la página entra aquí: <a href="https://www.youtube.com/watch?v=3dkLK0CIZ3w" target="_blank" rel="noopener noreferrer" class="text-purple-600 hover:text-purple-800 underline">https://www.youtube.com/watch?v=3dkLK0CIZ3w</a></em>',
     image: '/clima2.png',
@@ -88,7 +131,7 @@ export const projects: Project[] = [
     gradient: 'from-green-500 to-teal-600'
   },
   {
-    id: 7,
+    id: 10,
     title: 'RouletteBite - Restaurante',
     description: 'RouletteBite es una innovadora página web conceptual para un restaurante de comida rápida ficticio con temática de casino, donde los clientes pueden simular elegir su comida mediante una ruleta interactiva, agregando emoción y sorpresa a la experiencia. Aunque el restaurante no existe, la web ofrece una experiencia visual completamente funcional, diseñada para mostrar cómo sería una plataforma real. Cuenta con una interfaz inmersiva, diseño responsive, sistema de reservas y delivery simulado, navegación fluida, animaciones avanzadas y optimización de rendimiento. Desarrollada con Next.js 15, TypeScript, Tailwind CSS, Canvas API y otras tecnologías modernas, la plataforma combina funcionalidad visual y diseño temático para ofrecer una experiencia atractiva e inspiradora.',
     image: '/restaurante.png',
